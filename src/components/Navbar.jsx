@@ -89,31 +89,32 @@ const Navbar = () => {
             <AnimatePresence>
                 {mobileMenuOpen && (
                     <motion.div
-                        initial={{ opacity: 0, height: 0 }}
-                        animate={{ opacity: 1, height: 'auto' }}
-                        exit={{ opacity: 0, height: 0 }}
-                        className="md:hidden glass-dark border-b border-white/10 overflow-hidden"
+                        initial={{ opacity: 0, y: -10, scale: 0.95 }}
+                        animate={{ opacity: 1, y: 0, scale: 1 }}
+                        exit={{ opacity: 0, y: -10, scale: 0.95 }}
+                        transition={{ duration: 0.2 }}
+                        className="absolute top-full left-4 right-4 mt-2 md:hidden glass-dark rounded-2xl border border-white/10 overflow-hidden shadow-2xl z-50"
                     >
-                        <div className="px-4 py-8 flex flex-col gap-6 items-center">
+                        <div className="px-6 py-8 flex flex-col gap-6 items-center">
                             {navLinks.map((link) => (
                                 <a
                                     key={link.name}
                                     href={link.href}
                                     onClick={() => setMobileMenuOpen(false)}
-                                    className="text-lg font-medium text-white/70 hover:text-white"
+                                    className="text-lg font-medium text-white/70 hover:text-primary-500 transition-colors w-full text-center py-2 cursor-pointer"
                                 >
                                     {link.name}
                                 </a>
                             ))}
-                            <div className="flex gap-8 mt-4 pt-6 border-t border-white/10 w-full justify-center">
-                                <a href="https://github.com/MohsinAliSalik" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors">
+                            <div className="flex gap-8 mt-2 pt-6 border-t border-white/10 w-full justify-center">
+                                <a href="https://github.com/MohsinAliSalik" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors cursor-pointer p-2">
                                     <Github size={24} />
                                 </a>
-                                <a href="https://www.linkedin.com/in/mohsin-ali-salik-a1143a284" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors">
+                                <a href="https://www.linkedin.com/in/mohsin-ali-salik-a1143a284" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors cursor-pointer p-2">
                                     <Linkedin size={24} />
                                 </a>
                             </div>
-                            <a href="#contact" className="btn-primary w-full text-center">
+                            <a href="#contact" onClick={() => setMobileMenuOpen(false)} className="btn-primary w-full text-center mt-2 cursor-pointer relative z-50">
                                 Hire Me
                             </a>
                         </div>
