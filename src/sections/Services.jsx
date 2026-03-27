@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code, Layout, Smartphone, Search, Paintbrush, ArrowUpRight } from 'lucide-react';
+import { Code, Layout, Smartphone, Server, Paintbrush, ArrowUpRight } from 'lucide-react';
 
 const Services = () => {
     const services = [
@@ -25,9 +25,9 @@ const Services = () => {
             icon: <ArrowUpRight />,
         },
         {
-            title: 'SEO Optimization',
-            description: 'Implementing technical SEO best practices to improve your visibility on search engines.',
-            icon: <Search />,
+            title: 'Fully Functional Web Apps',
+            description: 'Building complete, dynamic, and robust web applications from start to finish, tailored to your needs.',
+            icon: <Server />,
         },
         {
             title: 'UI/UX Enhancement',
