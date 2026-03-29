@@ -61,7 +61,7 @@ const Hero = () => {
                             whileTap={{ scale: 0.95 }}
                             className="btn-outline flex items-center gap-2 text-lg px-8 py-3"
                         >
-                            Contant Me
+                            Contact Me
                         </motion.a>
                     </div>
 
