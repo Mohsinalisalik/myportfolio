@@ -71,7 +71,7 @@ const Hero = () => {
                             <span className="text-sm font-medium">GitHub</span>
                         </a>
                         <div className="w-1 h-1 bg-white/10 rounded-full" />
-                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Mohsin Ali Salik LinkedIn Profile" className="flex items-center gap-2 text-white/40 hover:text-white transition-colors group">
+                        <a href="https://www.linkedin.com/in/mohsin-ali-salik-a1143a284" target="_blank" rel="noopener noreferrer" aria-label="Mohsin Ali Salik LinkedIn Profile" className="flex items-center gap-2 text-white/40 hover:text-white transition-colors group">
                             <Linkedin size={20} />
                             <span className="text-sm font-medium">LinkedIn</span>
                         </a>
