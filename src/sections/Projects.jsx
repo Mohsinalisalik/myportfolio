@@ -2,8 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, ExternalLink, Code } from 'lucide-react';
 
-import mohsinVideo from '../assets/Mohsin project.mp4';
-
 const Projects = () => {
     const projects = [
         {
@@ -21,7 +19,7 @@ const Projects = () => {
             github: '#',
             link: '#',
             icon: <Code />,
-            video: mohsinVideo,
+            video: '/Mohsin project.mp4',
         },
         {
             title: 'Parking Management System',

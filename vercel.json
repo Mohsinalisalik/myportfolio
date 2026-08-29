@@ -1,6 +1,0 @@
-{
-  "framework": null,
-  "installCommand": "echo 'Skipping install, using local build'",
-  "buildCommand": "echo 'Skipping build, using local build'",
-  "outputDirectory": "dist"
-}
