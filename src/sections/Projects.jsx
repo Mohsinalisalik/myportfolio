@@ -7,6 +7,14 @@ import mohsinVideo from '../assets/Mohsin project.mp4';
 const Projects = () => {
     const projects = [
         {
+            title: 'Huderra Fragrances',
+            description: 'A premium ecommerce platform for luxury fragrances and perfumes, featuring an elegant UI and seamless shopping experience.',
+            tech: ['React', 'E-commerce', 'Web Design'],
+            github: '#',
+            link: 'http://huderrafragrances.com/',
+            icon: <Code />,
+        },
+        {
             title: 'Ecommerce Web App',
             description: 'A modern, high-performance ecommerce platform with secure payments, real-time inventory tracking, and an intuitive shopping experience.',
             tech: ['React', 'Node.js', 'MongoDB', 'Tailwind'],

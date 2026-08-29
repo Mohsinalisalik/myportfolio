@@ -66,17 +66,17 @@ const Hero = () => {
                     </div>
 
                     <div className="flex items-center justify-center gap-6">
-                        <a href="#" className="flex items-center gap-2 text-white/40 hover:text-white transition-colors group">
+                        <a href="https://github.com/Mohsinalisalik" target="_blank" rel="noopener noreferrer" aria-label="Mohsin Ali Salik GitHub Profile" className="flex items-center gap-2 text-white/40 hover:text-white transition-colors group">
                             <Github size={20} />
                             <span className="text-sm font-medium">GitHub</span>
                         </a>
                         <div className="w-1 h-1 bg-white/10 rounded-full" />
-                        <a href="#" className="flex items-center gap-2 text-white/40 hover:text-white transition-colors group">
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Mohsin Ali Salik LinkedIn Profile" className="flex items-center gap-2 text-white/40 hover:text-white transition-colors group">
                             <Linkedin size={20} />
                             <span className="text-sm font-medium">LinkedIn</span>
                         </a>
                         <div className="w-1 h-1 bg-white/10 rounded-full" />
-                        <a href="#" className="flex items-center gap-2 text-white/40 hover:text-white transition-colors group">
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Mohsin Ali Salik Fiverr Profile" className="flex items-center gap-2 text-white/40 hover:text-white transition-colors group">
                             <span className="text-sm font-medium">Fiverr</span>
                         </a>
                     </div>
