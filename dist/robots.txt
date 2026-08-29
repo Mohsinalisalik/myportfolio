@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mohsinalisalik.vercel.app/sitemap.xml
